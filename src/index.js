@@ -4,7 +4,7 @@ const inputBtn = document.querySelector('button')
 
 const weatherInformation = (() => {
 
-    const getWeather = (city) => {fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=da147e72e31a188c11a8c46352094705`, {mode: 'cors'})
+    const getWeather = (city) => {fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=da147e72e31a188c11a8c46352094705`, {mode: 'cors'})
 .then((res) => {
     return res.json()
 })
