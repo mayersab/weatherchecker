@@ -15,8 +15,5 @@
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
   },
-  "homepage": "https://mayersab.github.io/Weather-App",
-  "dependencies": {
-    "gh-pages": "^4.0.0"
-  }
+  "homepage": "https://mayersab.github.io/Weather-App"
 }
